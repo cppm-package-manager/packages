@@ -1,0 +1,8 @@
+# Package info file for Lyrebird
+
+name=lyrebird
+category=sound-video
+desc=Simple and powerful voice changer for Linux, written in GTK 3.
+arch=amd64
+version=1.0.0
+source=https://github.com/charpointer/lyrebird.git

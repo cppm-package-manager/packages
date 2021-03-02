@@ -1,0 +1,15 @@
+#!/bin/sh
+install() {
+    mkdir -p $CPPM_BUILD_DIR
+    cd $CPPM_BUILD_DIR
+    git clone -b c $PKG_SOURCE
+    make
+}
+
+postinst() {
+    # post install
+    echo "Post install done"
+}
+
+install
+post
